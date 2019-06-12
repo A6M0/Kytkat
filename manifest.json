@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Test api facebook kytcat",
+    "description": "Un profil facbook",
+    "version": "0.0.3",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "index.html"
+    },
+    "content_security_policy": "script-src 'self' https://connect.facebook.net; object-src 'self'"
+}
